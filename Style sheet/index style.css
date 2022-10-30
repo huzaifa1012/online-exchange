@@ -1,0 +1,674 @@
+body {
+    font-family: Leelawadee;
+    margin: 0%;
+}
+
+header {
+    background-color: #f7f8f8;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+.header-top {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    /* width: 20px; */
+    padding: 10px;
+    padding-top: 18px;
+    padding-left: 35px;
+
+}
+
+#logo-icon {
+    width: 32.5px;
+    height: auto;
+}
+
+.motors {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /* vertical-align: middle; */
+    width: 120px;
+}
+
+#car-icon {
+    width: 15px;
+    padding: 5px;
+    padding-top: 9px;
+    padding-left: 30px;
+}
+
+.header-top p {
+    padding-top: 5px;
+    padding-left: 5px;
+
+    font-size: 12px;
+}
+
+.header-top p:hover {
+    color: #0080ff;
+    cursor: pointer;
+    transition: 0.1s;
+    border-radius: 20px;
+    position: sticky;
+}
+
+.property {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 120px;
+}
+
+#building-icon {
+    width: 15px;
+    height: 17;
+    padding: 5px;
+    padding-top: 8px;
+    padding-left: 55px;
+}
+
+/* Header Top Has Finished Here */
+/* Header Mid Is Started Here */
+
+.header-mid {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 13px;
+    flex-wrap: wrap;
+    padding-right: 15px;
+}
+
+#logo-main {
+    width: 65px;
+    margin-left: 5px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.select-location {
+
+    font-size: 17px;
+    border: 2px solid #012f34;
+    border-radius: 5px;
+    width: 270px;
+    margin-left: -17px;
+    padding: 13px 30px 13px 13px;
+}
+
+.select-location:focus {
+    border: 1px solid#00e5ff;
+}
+
+#search-bar {
+
+    font-size: 17px;
+    border: 2px solid #012f34;
+    margin-left: -15px;
+    border-radius: 5px 0px 0px 5px;
+    /* height: 48px; */
+    width: 600px;
+    padding: 13px 30px 13px 13px;
+
+}
+
+#searc-button {
+    margin-left: -35px;
+    font-size: 17px;
+    padding: 13px;
+    background-color: #012f34;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#search-icon {
+    color: white;
+}
+
+#searc-bar :focus {
+    border: 1px solid#00e5ff;
+}
+
+
+#login-link {
+    text-decoration: none;
+    border-bottom: 2px solid #012f34;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    color: #012f34;
+}
+
+#sell-button {
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #012f34;
+    cursor: pointer;
+    font-weight: 900;
+    height: 45px;
+    border-radius: 100px;
+    border-top: 6px solid rgb(0, 255, 255);
+    border-left: 6px solid blue;
+    border-bottom: 6px solid rgb(255, 242, 0);
+    border-right: 6px solid green;
+    /* padding: 10px; */
+}
+
+/* Mid Header Ends Here */
+/* advertisement Starts */
+.advertisement {
+    display: flex;
+    justify-content: center;
+}
+
+.ad {
+
+    /* background-color: #012f34; */
+    /* margin: 10px; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    width: 90vw;
+    height: 200px;
+}
+
+#product-banner-img {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+
+/* desktop Covered */
+@media (min-width: 900px) and (max-width: 1130px) {
+    body {
+      background-color: #de3163;
+    }
+
+
+/* Header Mid Is Started Here */
+
+#logo-main {
+    width: 60px;
+   
+}
+
+.select-location {
+
+    font-size: 17px;
+    padding: 13;
+    width: 150px;
+    /* margin */
+}
+
+#search-bar {
+
+
+    border: 2px solid #012f34;
+    width: 350px;
+    padding: 13px 30px 13px 13px;
+
+}
+
+
+#login-link {
+    font-size: 14px;
+}
+
+#sell-button {
+    font-size: 10px;
+ }
+
+/* Mid Header Ends Here */
+/* advertisement Starts */
+.advertisement {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+  }
+ 
+  
+
+
+
+
+/* Tablets Covered */
+@media (min-width: 490px) and (max-width: 900px) {
+    body {
+      background-color: yellow;
+    }
+
+
+
+
+    header {
+        background-color: #f7f8f8;
+        border-bottom: 2px solid black;
+        padding-bottom: 20px;
+    }
+    
+    .header-top {
+        display: flex;
+        justify-content: center;
+        /* display: none; */
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    
+        /* width: 20px; */
+        padding: 10px;
+        padding-top: 18px;
+        padding-left: -100px;
+    
+    }
+    
+    #logo-icon {
+        width: 32.5px;
+        height: auto;
+    }
+    
+    .motors {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        /* vertical-align: middle; */
+        width: 120px;
+    }
+    
+    #car-icon {
+        width: 15px;
+        padding: 5px;
+        padding-top: 9px;
+        padding-left: 25px;
+    }
+    
+    .header-top p {
+        padding-top: 5px;
+        padding-left: 5px;
+    
+        font-size: 12px;
+    }
+    
+    .header-top p:hover {
+        color: #0080ff;
+        cursor: pointer;
+        transition: 0.1s;
+        border-radius: 20px;
+        position: sticky;
+    }
+    
+    .property {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 120px;
+    }
+    
+    #building-icon {
+        width: 15px;
+        height: 17;
+        padding: 5px;
+        padding-top: 8px;
+        padding-left: 25px;
+    }
+    
+    /* Header Top Has Finished Here */
+    /* Header Mid Is Started Here */
+    
+    .header-mid {
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 13px;
+        flex-wrap: wrap;
+        padding-right: 15px;
+    }
+    
+    #logo-main {
+        width: 65px;
+        margin-left: 5px;
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .select-location {
+        display: none;
+    
+      
+    }
+    
+    
+    #search-bar {
+    
+        font-size: 17px;
+        border: 2px solid #012f34;
+        margin-left: -15px;
+        border-radius: 5px 0px 0px 5px;
+        /* height: 48px; */
+        width: 60vw;
+        padding: 13px 30px 13px 13px;
+    
+    }
+    
+    #searc-button {
+        margin-left: -35px;
+        font-size: 17px;
+        padding: 13px;
+        background-color: #012f34;
+        border-radius: 0px 5px 5px 0px;
+    }
+    
+    #search-icon {
+        color: white;
+    }
+    
+    
+    #login-link {
+        text-decoration: none;
+        border: 2px solid #012f34;
+        font-weight: 600;
+        display: flex;
+        margin: 5px;
+        padding: 0px 15px 0px 15px;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        height: 45px;
+        border-radius: 4px;
+        letter-spacing: 0.2px;
+        color: #012f34;
+        width: 30px;
+    }
+    
+    #sell-button {
+        font-size: 13px;
+        margin: 5px;
+        width: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        background-color:  #012f34;
+        cursor: pointer;
+        font-weight: 900;
+        height: 45px;
+        border-radius: 4px;
+        border: none;
+    }
+    
+    /* Mid Header Ends Here */
+    /* advertisement Starts */
+    .advertisement {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .ad {
+    
+        /* background-color: #012f34; */
+        /* margin: 10px; */
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-color: black;
+        width: 50vw;
+        height: 200px;
+    }
+    
+    #product-banner-img {
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100vw;
+    }
+
+
+
+
+}
+@media (min-width: 270px) and (max-width: 500px) {
+    body {
+      background-color: rgb(60, 0, 255);
+    }
+  
+
+    header {
+        background-color: #f7f8f8;
+        border-bottom: 2px solid black;
+        padding-bottom: 20px;
+    }
+    
+    .header-top {
+        display: flex;
+        justify-content: center;
+        /* display: none; */
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    
+        /* width: 20px; */
+        padding: 10px;
+        padding-top: 18px;
+        padding-left: -100px;
+    
+    }
+    
+    #logo-icon {
+        width: 32.5px;
+        height: auto;
+    }
+    
+    .motors {
+        display: flex;
+        display: none;
+
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        /* vertical-align: middle; */
+        width: 120px;
+    }
+    
+    #car-icon {
+        display: none;
+
+        width: 15px;
+        padding: 5px;
+        padding-top: 9px;
+        padding-left: 25px;
+    }
+    
+    .header-top p {
+        padding-top: 5px;
+        padding-left: 5px;
+    
+        font-size: 12px;
+    }
+    
+    .header-top p:hover {
+        color: #0080ff;
+        cursor: pointer;
+        transition: 0.1s;
+        border-radius: 20px;
+        position: sticky;
+    }
+    
+    .property {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 120px;
+        display: none;
+
+    }
+    
+    #building-icon {
+        display: none;
+        width: 15px;
+        height: 17;
+        padding: 5px;
+        padding-top: 8px;
+        padding-left: 25px;
+    }
+    
+    /* Header Top Has Finished Here */
+    /* Header Mid Is Started Here */
+    
+    .header-mid {
+        align-items: center;
+        display: flex;
+        padding: 0%;
+        justify-content: center;
+        padding-top: 13px;
+        flex-wrap: wrap;
+        margin-left: 25px;
+        /* padding-right: 15px; */
+    }
+    #main-search {
+        margin: 0px 10px 0px 10px;
+    }
+    
+    #logo-main {
+        width: 65px;
+        margin-left: 5px;
+        margin-right: 20px;
+        display: flex;
+        display: none;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .select-location {
+        display: none;
+    
+      
+    }
+    
+    
+    #search-bar {
+    
+        font-size: 12px;
+        border: 2px solid #012f34;
+        /* margin-left: -15px; */
+        border-radius: 5px 0px 0px 5px;
+        /* height: 48px; */
+        width: 30vw;
+        /* padding: 13px 30px 13px 13px; */
+    
+    }
+    
+    #searc-button {
+        margin-left: -35px;
+        width: 50px;
+        font-size: 12px;
+        padding: 13px;
+        background-color: #012f34;
+        border-radius: 0px 5px 5px 0px;
+    }
+    
+    #search-icon {
+        color: white;
+    }
+    
+    
+    #login-link {
+        text-decoration: none;
+        border: 2px solid #012f34;
+        font-weight: 600;
+        display: flex;
+        margin: 5px;
+        padding: 0px 7px 0px 7px;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        height: 40px;
+        border-radius: 4px;
+        letter-spacing: 0.2px;
+        color: #012f34;
+        width: 30px;
+    }
+    
+    #sell-button {
+        font-size: 10px;
+        margin: 5px;
+        width: 50px;
+        /* padding-left: 15px; */
+        /* padding-right: 1s    5px; */
+        color: white;
+        background-color:  #012f34;
+        cursor: pointer;
+        font-weight: 500;
+        height: 45px;
+        border-radius: 4px;
+        border: none;
+    }
+    
+    /* Mid Header Ends Here */
+    /* advertisement Starts */
+    .advertisement {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .ad {
+    
+        /* background-color: #012f34; */
+        /* margin: 10px; */
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-color: black;
+        width: 50vw;
+        width: 100%;
+        height: 100px;   
+    }
+    
+    #product-banner-img {
+        /* display: flex; */
+        /* justify-content: scenter; */
+        /* align-items: center; */
+        
+        width: 100%;
+        height: 100px;   
+    }
+
+
+
+
+}
