@@ -1,0 +1,80 @@
+body {
+    margin: 0%;
+    background-color: rgba(122, 69, 0, 0.209);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main {
+    margin: 0 auto;
+}
+
+.input-wrapper {
+    /* display: flex; */
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.form {
+    width: 80vw;
+    /* height:90vh; */
+    background-color: blueviolet;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp {
+    margin: 5px 0px 5px 0px;
+    width: 50vw;
+    padding: 8px;
+    font-size: 17px;
+    border: none;
+    /* border-bottom: 2px solid black; */
+    /* border-radius: 10px; */
+}
+
+input {
+    margin: 5px 0px 5px 0px;
+    width: 40px;
+    padding: 8px;
+    font-size: 17px;
+    border: none;
+    padding: 20px;
+    background-color: aqua;
+    color: blueviolet;
+
+    border-radius: 20px;
+}
+
+#a {
+    opacity: 0.0;
+}
+
+#file-upload-button {
+    padding: 20px;
+    background: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: palevioletred;
+}
+
+#file-div {
+    background-color: red;
+    width: fit-content;
+    border-radius: 60px;
+}
+
+/* Upload File Button Css */
+#prod-image {
+    width: auto;
+}
+/* Upload File Button End */

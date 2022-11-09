@@ -6,12 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./javascripts/firebaseconfig.js" type="module"></script>
     <link rel="stylesheet" href="./Style sheet/index style.css">
+    
+    
+    
     <title>Document</title>
 </head>
 
 <body>
-<!-- Header Start -->
+
+
+
+
+    <!-- Header Start -->
     <header>
         <div class="header-top">
             <div class="logo">
@@ -39,15 +47,15 @@
                 <option value="Peshawar">Peshawar</option>
             </select>
             <div class="main-search">
-            <input type="text" id="search-bar" placeholder="Find cars, mobiles & etc...." >
-            <button id="searc-button" ><i class="fa fa-search" id="search-icon"></i></button>
-        </div>
-            <a href="#" id="login-link">Login</a>
-            <button id="sell-button"> &plus; SELL</button>
+                <input type="text" id="search-bar" placeholder="Find cars, mobiles & etc....">
+                <button id="searc-button"><i class="fa fa-search" id="search-icon"></i></button>
+            </div>
+            <a href="./pages/login.html" id="login-link">Login</a>
+            <a href="./pages/sell.html"><button id="sell-button"> &plus; SELL</button></a>
         </div>
     </header>
     <!-- Header End -->
-    
+
     <div class="advertisement">
 
         <div class="ad">
@@ -56,6 +64,15 @@
     </div>
 
     <!-- Hero Section Start -->
+    <div class="hero-wrap">
+
+        <div class="hero">
+            <div id="product-box">
+              
+            </div>
+        </div>
+
+    </div>
 
 
 
@@ -84,10 +101,8 @@
 
 
 
-    
 
-    <script src="./apps/firebaseconfig.js"></script>
-
+    <script src="./javascripts/index.js" type="module"></script>
 </body>
 
 </html>
